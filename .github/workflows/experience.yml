@@ -1,1 +1,91 @@
 
+name: Auto Update Experience
+
+on:
+  push:
+    paths:
+      - ".github/experience.json"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-experience:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate Experience
+        run: |
+          python3 <<'PY'
+          import json
+          from pathlib import Path
+
+          json_file = Path(".github/experience.json")
+          readme_file = Path("README.md")
+
+          experiences = json.loads(
+              json_file.read_text(encoding="utf-8")
+          )
+
+          lines = ["### 💼 Experience", ""]
+
+          for exp in experiences:
+              role = exp["role"]
+              company = exp["company"]
+
+              lines.append(
+                  f"* {role} — **{company}**"
+              )
+
+              for description in exp.get("description", []):
+                  lines.append(f"  * {description}")
+
+          content = "\n".join(lines)
+
+          start = "<!-- EXPERIENCE:START -->"
+          end = "<!-- EXPERIENCE:END -->"
+
+          readme = readme_file.read_text(encoding="utf-8")
+
+          start_index = readme.find(start)
+          end_index = readme.find(end)
+
+          if start_index == -1 or end_index == -1:
+              raise SystemExit("Experience markers not found")
+
+          new_readme = (
+              readme[:start_index]
+              + start
+              + "\n\n"
+              + content
+              + "\n\n"
+              + end
+              + readme[end_index + len(end):]
+          )
+
+          readme_file.write_text(
+              new_readme,
+              encoding="utf-8"
+          )
+
+          print("Experience section updated successfully.")
+          PY
+
+      - name: Commit and Push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add README.md
+
+          if git diff --cached --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+
+          git commit -m "Auto-update experience"
+          git push
