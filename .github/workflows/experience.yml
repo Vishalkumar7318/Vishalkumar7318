@@ -1,9 +1,6 @@
 name: Auto Update Experience
 
-"on":
-  push:
-    paths:
-      - ".github/experience.json"
+on:
   workflow_dispatch:
 
 permissions:
@@ -64,7 +61,10 @@ jobs:
               + readme[end_index + len(end):]
           )
 
-          readme_file.write_text(new_readme, encoding="utf-8")
+          readme_file.write_text(
+              new_readme,
+              encoding="utf-8"
+          )
 
           print("Experience section updated successfully.")
           PY
