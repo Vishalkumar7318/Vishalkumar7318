@@ -281,7 +281,104 @@ Data analysis project focused on discovering sales trends, patterns and business
 
 <!-- AUTO-PROJECTS:START -->
 
-> 🔄 Projects are automatically updated from my GitHub repositories.
+<table>
+
+    <tr>
+    
+    <td width="50%" valign="top">
+
+    <h3 align="center">🚀 StockLens</h3>
+
+    <p align="center">
+      GitHub Project
+    </p>
+
+    <p align="center">
+      
+        <br>
+        <img src="https://img.shields.io/badge/TypeScript-111827?style=flat-square">
+        
+    </p>
+
+    <p align="center">
+      <a href="https://github.com/Vishalkumar7318/StockLens">
+        <img src="https://img.shields.io/badge/📂%20REPOSITORY-181717?style=for-the-badge&logo=github">
+      </a>
+
+      
+        <a href="https://stocklens-sand.vercel.app/">
+          <img src="https://img.shields.io/badge/🌐%20LIVE%20DEMO-00BFFF?style=for-the-badge">
+        </a>
+        
+    </p>
+
+    </td>
+    
+    
+    <td width="50%" valign="top">
+
+    <h3 align="center">🚀 vishalkumar7318.github.io</h3>
+
+    <p align="center">
+      GitHub Project
+    </p>
+
+    <p align="center">
+      
+        <br>
+        <img src="https://img.shields.io/badge/HTML-111827?style=flat-square">
+        
+    </p>
+
+    <p align="center">
+      <a href="https://github.com/Vishalkumar7318/vishalkumar7318.github.io">
+        <img src="https://img.shields.io/badge/📂%20REPOSITORY-181717?style=for-the-badge&logo=github">
+      </a>
+
+      
+        <a href="https://vishalkumar7318.github.io/">
+          <img src="https://img.shields.io/badge/🌐%20LIVE%20DEMO-00BFFF?style=for-the-badge">
+        </a>
+        
+    </p>
+
+    </td>
+    
+    </tr>
+    
+    <tr>
+    
+    <td width="50%" valign="top">
+
+    <h3 align="center">🚀 AKTU-AI</h3>
+
+    <p align="center">
+      Creating Question And Answer
+    </p>
+
+    <p align="center">
+      
+        <br>
+        <img src="https://img.shields.io/badge/TypeScript-111827?style=flat-square">
+        
+    </p>
+
+    <p align="center">
+      <a href="https://github.com/Vishalkumar7318/AKTU-AI">
+        <img src="https://img.shields.io/badge/📂%20REPOSITORY-181717?style=for-the-badge&logo=github">
+      </a>
+
+      
+    </p>
+
+    </td>
+    
+    
+    <td width="50%"></td>
+    
+    </tr>
+    
+</table>
 
 <!-- AUTO-PROJECTS:END -->
 
