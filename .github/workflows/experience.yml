@@ -1,6 +1,6 @@
 name: Auto Update Experience
 
-on:
+"on":
   push:
     paths:
       - ".github/experience.json"
