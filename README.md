@@ -78,12 +78,16 @@ Dr. A.P.J. Abdul Kalam Azad Technical University
 
 **Expected Graduation:** 2027
 
+<!-- EXPERIENCE:START -->
+
 ### 💼 Experience
 
 * Market Research Analyst — **ASAUViA**
 * Data Analysis Intern — **Tutedude**
 * GenAI Powered Data Analytics — **Tata**
 * Data Analysis — **Google**
+
+<!-- EXPERIENCE:END -->
 
 ### 🎯 Career Focus
 
