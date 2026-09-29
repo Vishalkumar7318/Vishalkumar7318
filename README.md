@@ -83,9 +83,17 @@ Dr. A.P.J. Abdul Kalam Azad Technical University
 ### 💼 Experience
 
 * Market Research Analyst — **ASAUViA**
+  * Conducted market research and data analysis
+  * Worked with business and market insights
 * Data Analysis Intern — **Tutedude**
+  * Performed data analysis and visualization
+  * Worked with datasets to generate insights
 * GenAI Powered Data Analytics — **Tata**
+  * Worked on Generative AI powered data analytics
+  * Explored AI-assisted business insights
 * Data Analysis — **Google**
+  * Worked on data analysis concepts and practical tasks
+  * Applied analytical techniques to datasets
 
 <!-- EXPERIENCE:END -->
 
