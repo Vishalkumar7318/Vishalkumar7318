@@ -11,83 +11,54 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Profile Repository
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Update Experience
+      - name: Update README
         run: |
           python3 <<'PY'
           from pathlib import Path
           import re
 
-          readme_path = Path("README.md")
-          readme = readme_path.read_text(encoding="utf-8")
-
-          experience = """
-          ### 💼 Experience
-
-          #### 📊 Market Research Analyst — ASAUViA
-          - Conducted market research and data analysis
-          - Worked with business and market insights
-
-          #### 📈 Data Analysis Intern — Tutedude
-          - Performed data analysis and exploratory data analysis
-          - Created insights from datasets
-
-          #### 🤖 GenAI Powered Data Analytics Intern — Tata
-          - Worked on Generative AI and data analytics
-          - Applied AI-driven analytical approaches
-
-          #### 📊 Data Analysis Intern — Google
-          - Worked on data analysis concepts and practical projects
-          - Developed analytical and problem-solving skills
-          """.strip()
+          path = Path("README.md")
+          text = path.read_text(encoding="utf-8")
 
           start = "<!-- EXPERIENCE:START -->"
           end = "<!-- EXPERIENCE:END -->"
 
-          pattern = re.compile(
-              re.escape(start) + r".*?" + re.escape(end),
-              re.DOTALL
-          )
+          content = """### 💼 Experience
 
-          replacement = (
-              start
-              + "\n\n"
-              + experience
-              + "\n\n"
-              + end
-          )
+          * Market Research Analyst — **ASAUViA**
+          * Data Analysis Intern — **Tutedude**
+          * GenAI Powered Data Analytics — **Tata**
+          * Data Analysis — **Google**"""
 
-          updated, count = pattern.subn(
-              replacement,
-              readme,
-              count=1
+          pattern = re.escape(start) + r".*?" + re.escape(end)
+
+          new_text, count = re.subn(
+              pattern,
+              start + "\n\n" + content + "\n\n" + end,
+              text,
+              count=1,
+              flags=re.DOTALL
           )
 
           if count == 0:
-              raise SystemExit(
-                  "EXPERIENCE markers not found in README.md"
-              )
+              raise SystemExit("Experience markers not found")
 
-          readme_path.write_text(
-              updated,
-              encoding="utf-8"
-          )
+          path.write_text(new_text, encoding="utf-8")
+          print("Experience updated.")
 
-          print("Experience section updated successfully.")
-
-      - name: Commit Changes
+      - name: Commit and Push
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
           git add README.md
 
           if git diff --cached --quiet; then
-            echo "No changes."
+            echo "No changes"
             exit 0
           fi
 
           git commit -m "Auto-update experience"
-          git push origin main
+          git push
