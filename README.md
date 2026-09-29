@@ -281,104 +281,37 @@ Data analysis project focused on discovering sales trends, patterns and business
 
 <!-- AUTO-PROJECTS:START -->
 
-<table>
+### 🚀 StockLens
 
-    <tr>
-    
-    <td width="50%" valign="top">
+GitHub Project
 
-    <h3 align="center">🚀 StockLens</h3>
+![TypeScript](https://img.shields.io/badge/TypeScript-111827?style=flat-square)
 
-    <p align="center">
-      GitHub Project
-    </p>
+[📂 Repository](https://github.com/Vishalkumar7318/StockLens)
+ • [🌐 Live Demo](https://stocklens-sand.vercel.app/)
 
-    <p align="center">
-      
-        <br>
-        <img src="https://img.shields.io/badge/TypeScript-111827?style=flat-square">
-        
-    </p>
+---
 
-    <p align="center">
-      <a href="https://github.com/Vishalkumar7318/StockLens">
-        <img src="https://img.shields.io/badge/📂%20REPOSITORY-181717?style=for-the-badge&logo=github">
-      </a>
+### 🚀 vishalkumar7318.github.io
 
-      
-        <a href="https://stocklens-sand.vercel.app/">
-          <img src="https://img.shields.io/badge/🌐%20LIVE%20DEMO-00BFFF?style=for-the-badge">
-        </a>
-        
-    </p>
+GitHub Project
 
-    </td>
-    
-    
-    <td width="50%" valign="top">
+![HTML](https://img.shields.io/badge/HTML-111827?style=flat-square)
 
-    <h3 align="center">🚀 vishalkumar7318.github.io</h3>
+[📂 Repository](https://github.com/Vishalkumar7318/vishalkumar7318.github.io)
+ • [🌐 Live Demo](https://vishalkumar7318.github.io/)
 
-    <p align="center">
-      GitHub Project
-    </p>
+---
 
-    <p align="center">
-      
-        <br>
-        <img src="https://img.shields.io/badge/HTML-111827?style=flat-square">
-        
-    </p>
+### 🚀 AKTU-AI
 
-    <p align="center">
-      <a href="https://github.com/Vishalkumar7318/vishalkumar7318.github.io">
-        <img src="https://img.shields.io/badge/📂%20REPOSITORY-181717?style=for-the-badge&logo=github">
-      </a>
+Creating Question And Answer
 
-      
-        <a href="https://vishalkumar7318.github.io/">
-          <img src="https://img.shields.io/badge/🌐%20LIVE%20DEMO-00BFFF?style=for-the-badge">
-        </a>
-        
-    </p>
+![TypeScript](https://img.shields.io/badge/TypeScript-111827?style=flat-square)
 
-    </td>
-    
-    </tr>
-    
-    <tr>
-    
-    <td width="50%" valign="top">
+[📂 Repository](https://github.com/Vishalkumar7318/AKTU-AI)
 
-    <h3 align="center">🚀 AKTU-AI</h3>
-
-    <p align="center">
-      Creating Question And Answer
-    </p>
-
-    <p align="center">
-      
-        <br>
-        <img src="https://img.shields.io/badge/TypeScript-111827?style=flat-square">
-        
-    </p>
-
-    <p align="center">
-      <a href="https://github.com/Vishalkumar7318/AKTU-AI">
-        <img src="https://img.shields.io/badge/📂%20REPOSITORY-181717?style=for-the-badge&logo=github">
-      </a>
-
-      
-    </p>
-
-    </td>
-    
-    
-    <td width="50%"></td>
-    
-    </tr>
-    
-</table>
+---
 
 <!-- AUTO-PROJECTS:END -->
 
