@@ -33,6 +33,7 @@ jobs:
           import json
           import re
           from pathlib import Path
+          from urllib.parse import quote
 
           USERNAME = "Vishalkumar7318"
           PROFILE_REPO = "Vishalkumar7318"
@@ -59,9 +60,15 @@ jobs:
           def clean(value, fallback):
               if not value:
                   return fallback
-              return str(value).replace("\n", " ").replace("\r", " ").strip()
 
-          cards = []
+              return (
+                  str(value)
+                  .replace("\n", " ")
+                  .replace("\r", " ")
+                  .strip()
+              )
+
+          lines = []
 
           for repo in repositories:
               name = clean(repo.get("name"), "Project")
@@ -76,80 +83,41 @@ jobs:
               )
 
               homepage = clean(repo.get("homepage"), "")
-
               language = clean(repo.get("language"), "")
 
-              language_badge = ""
-              if language:
-                  language_badge = f"""
-                  <br>
-                  <img src="https://img.shields.io/badge/{language.replace(' ', '%20')}-111827?style=flat-square">
-                  """
+              lines.append(f"### 🚀 {name}")
+              lines.append("")
+              lines.append(description)
+              lines.append("")
 
-              demo_button = ""
+              if language:
+                  badge_language = quote(language)
+                  lines.append(
+                      f"![{language}](https://img.shields.io/badge/"
+                      f"{badge_language}-111827?style=flat-square)"
+                  )
+                  lines.append("")
+
+              lines.append(
+                  f"[📂 Repository]({repo_url})"
+              )
 
               if homepage:
-                  demo_button = f"""
-                  <a href="{homepage}">
-                    <img src="https://img.shields.io/badge/🌐%20LIVE%20DEMO-00BFFF?style=for-the-badge">
-                  </a>
-                  """
+                  lines.append(
+                      f" • [🌐 Live Demo]({homepage})"
+                  )
 
-              card = f"""
-              <td width="50%" valign="top">
+              lines.append("")
+              lines.append("---")
+              lines.append("")
 
-              <h3 align="center">🚀 {name}</h3>
+          if not lines:
+              lines = [
+                  "🚀 No public projects found yet.",
+                  ""
+              ]
 
-              <p align="center">
-                {description}
-              </p>
-
-              <p align="center">
-                {language_badge}
-              </p>
-
-              <p align="center">
-                <a href="{repo_url}">
-                  <img src="https://img.shields.io/badge/📂%20REPOSITORY-181717?style=for-the-badge&logo=github">
-                </a>
-
-                {demo_button}
-              </p>
-
-              </td>
-              """
-
-              cards.append(card)
-
-          rows = []
-
-          for i in range(0, len(cards), 2):
-              first = cards[i]
-              second = cards[i + 1] if i + 1 < len(cards) else """
-              <td width="50%"></td>
-              """
-
-              rows.append(f"""
-              <tr>
-              {first}
-              {second}
-              </tr>
-              """)
-
-          generated = f"""
-          <table>
-          {''.join(rows)}
-          </table>
-          """.strip()
-
-          if not repositories:
-              generated = """
-              <div align="center">
-
-              🚀 No public projects found yet.
-
-              </div>
-              """.strip()
+          generated = "\n".join(lines).strip()
 
           start = "<!-- AUTO-PROJECTS:START -->"
           end = "<!-- AUTO-PROJECTS:END -->"
@@ -183,7 +151,9 @@ jobs:
               encoding="utf-8"
           )
 
-          print(f"Projects found: {len(repositories)}")
+          print(
+              f"Projects found: {len(repositories)}"
+          )
           PY
 
       - name: Commit Changes
