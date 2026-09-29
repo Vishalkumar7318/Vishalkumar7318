@@ -1,0 +1,202 @@
+name: Auto Update Projects
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: "0 */6 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-projects:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Profile Repository
+        uses: actions/checkout@v4
+
+      - name: Fetch Public Repositories
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api \
+            --paginate \
+            -H "Accept: application/vnd.github+json" \
+            "/users/Vishalkumar7318/repos?per_page=100&type=owner&sort=updated&direction=desc" \
+            > repositories.json
+
+      - name: Generate Project Cards
+        run: |
+          python3 <<'PY'
+          import json
+          import re
+          from pathlib import Path
+
+          USERNAME = "Vishalkumar7318"
+          PROFILE_REPO = "Vishalkumar7318"
+
+          readme_path = Path("README.md")
+          readme = readme_path.read_text(encoding="utf-8")
+
+          with open("repositories.json", "r", encoding="utf-8") as f:
+              repositories = json.load(f)
+
+          repositories = [
+              repo for repo in repositories
+              if not repo.get("private", True)
+              and not repo.get("fork", False)
+              and not repo.get("archived", False)
+              and repo.get("name") != PROFILE_REPO
+          ]
+
+          repositories.sort(
+              key=lambda repo: repo.get("pushed_at") or "",
+              reverse=True
+          )
+
+          def clean(value, fallback):
+              if not value:
+                  return fallback
+              return str(value).replace("\n", " ").replace("\r", " ").strip()
+
+          cards = []
+
+          for repo in repositories:
+              name = clean(repo.get("name"), "Project")
+              description = clean(
+                  repo.get("description"),
+                  "GitHub Project"
+              )
+
+              repo_url = repo.get(
+                  "html_url",
+                  f"https://github.com/{USERNAME}/{name}"
+              )
+
+              homepage = clean(repo.get("homepage"), "")
+
+              language = clean(repo.get("language"), "")
+
+              language_badge = ""
+              if language:
+                  language_badge = f"""
+                  <br>
+                  <img src="https://img.shields.io/badge/{language.replace(' ', '%20')}-111827?style=flat-square">
+                  """
+
+              demo_button = ""
+
+              if homepage:
+                  demo_button = f"""
+                  <a href="{homepage}">
+                    <img src="https://img.shields.io/badge/🌐%20LIVE%20DEMO-00BFFF?style=for-the-badge">
+                  </a>
+                  """
+
+              card = f"""
+              <td width="50%" valign="top">
+
+              <h3 align="center">🚀 {name}</h3>
+
+              <p align="center">
+                {description}
+              </p>
+
+              <p align="center">
+                {language_badge}
+              </p>
+
+              <p align="center">
+                <a href="{repo_url}">
+                  <img src="https://img.shields.io/badge/📂%20REPOSITORY-181717?style=for-the-badge&logo=github">
+                </a>
+
+                {demo_button}
+              </p>
+
+              </td>
+              """
+
+              cards.append(card)
+
+          rows = []
+
+          for i in range(0, len(cards), 2):
+              first = cards[i]
+              second = cards[i + 1] if i + 1 < len(cards) else """
+              <td width="50%"></td>
+              """
+
+              rows.append(f"""
+              <tr>
+              {first}
+              {second}
+              </tr>
+              """)
+
+          generated = f"""
+          <table>
+          {''.join(rows)}
+          </table>
+          """.strip()
+
+          if not repositories:
+              generated = """
+              <div align="center">
+
+              🚀 No public projects found yet.
+
+              </div>
+              """.strip()
+
+          start = "<!-- AUTO-PROJECTS:START -->"
+          end = "<!-- AUTO-PROJECTS:END -->"
+
+          pattern = re.compile(
+              re.escape(start) + r".*?" + re.escape(end),
+              re.DOTALL
+          )
+
+          replacement = (
+              start
+              + "\n\n"
+              + generated
+              + "\n\n"
+              + end
+          )
+
+          updated, count = pattern.subn(
+              replacement,
+              readme,
+              count=1
+          )
+
+          if count == 0:
+              raise SystemExit(
+                  "AUTO-PROJECTS markers not found in README.md"
+              )
+
+          readme_path.write_text(
+              updated,
+              encoding="utf-8"
+          )
+
+          print(f"Projects found: {len(repositories)}")
+          PY
+
+      - name: Commit Changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add README.md
+
+          if git diff --cached --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+
+          git commit -m "Auto-update GitHub projects"
+          git push

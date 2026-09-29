@@ -1,82 +1,102 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,25:0f172a,50:0369a1,75:0891b2,100:06b6d4&height=250&section=header&text=Vishal%20Kumar&fontSize=58&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=Data%20Analyst%20%7C%20AI%20Automation%20%7C%20Web%20Development&descAlignY=60&descSize=20" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=220&section=header&text=Vishal%20Kumar&fontSize=55&fontAlignY=35&animation=twinkling&fontColor=ffffff" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=900&color=00D9FF&center=true&vCenter=true&width=900&lines=Data+Analyst;AI+Automation+Enthusiast;Python+%7C+SQL+%7C+Power+BI;Generative+AI+Developer;Web+Development+Enthusiast;Building+Data-Driven+AI+Solutions" alt="Typing SVG"/>
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=600&size=24&pause=1000&color=00BFFF&center=true&vCenter=true&width=700&lines=Data+Analyst;AI+Automation+Enthusiast;Web+Developer;Python+%7C+SQL+%7C+Power+BI;Building+AI-Powered+Applications" alt="Typing SVG"/>
 
-<br><br>
+<br>
 
 <a href="https://github.com/Vishalkumar7318">
-<img src="https://komarev.com/ghpvc/?username=Vishalkumar7318&label=PROFILE+VIEWS&color=00BFFF&style=for-the-badge" alt="Profile Views"/>
+<img src="https://komarev.com/ghpvc/?username=Vishalkumar7318&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="Profile Views"/>
 </a>
 
 <a href="https://github.com/Vishalkumar7318?tab=followers">
-<img src="https://img.shields.io/github/followers/Vishalkumar7318?label=FOLLOWERS&style=for-the-badge&color=0891b2&logo=github&cacheSeconds=60" alt="GitHub Followers"/>
+<img src="https://img.shields.io/github/followers/Vishalkumar7318?label=Followers&style=for-the-badge&color=181717" alt="GitHub Followers"/>
 </a>
+
+<a href="https://www.linkedin.com/in/vishal-kumar-25868a284/">
+<img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</a>
+
+</div>
+
+---
+
+# 👋 About Me
+
+Hi, I'm **Vishal Kumar**, a B.Tech Information Technology student at **Dr. A.P.J. Abdul Kalam Technical University (AKTU)**, graduating in **2027**.
+
+I'm passionate about **Data Analytics, AI Automation, Generative AI, and Web Development**.
+
+I enjoy transforming raw data and real-world problems into **useful dashboards, intelligent applications, and automation solutions**.
+
+### 🎯 My Focus
+
+- 📊 Data Analytics & Business Intelligence
+- 🐍 Python & SQL
+- 📈 Power BI & Excel
+- 🤖 Generative AI & AI Automation
+- 🧠 AI Agents & Prompt Engineering
+- 🌐 Web Development
+- 📉 Stock Market Analytics
+- 🚀 Building practical AI-powered applications
+
+---
+
+# 🛠️ Core Skills & Tech Stack
+
+<div align="center">
+
+### 💻 Programming & Data
+
+<img src="https://skillicons.dev/icons?i=python,mysql,mongodb,html,css,js" />
 
 <br><br>
 
-<img src="https://img.shields.io/github/stars/Vishalkumar7318?label=TOTAL%20STARS&style=for-the-badge&color=7c3aed&logo=github" alt="GitHub Stars"/>
+### 📊 Analytics & Visualization
 
-<img src="https://img.shields.io/github/repositories/Vishalkumar7318?label=REPOSITORIES&style=for-the-badge&color=2563eb&logo=github" alt="Repositories"/>
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
+<img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/>
+<img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white"/>
 
-</div>
+<br><br>
 
-<div align="center">
+### 🤖 AI & Automation
 
-<img src="https://raw.githubusercontent.com/Vishalkumar7318/Vishalkumar7318/main/.github/profile-background.svg" width="100%" alt="Animated data background"/>
+<img src="https://img.shields.io/badge/Generative%20AI-8A2BE2?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/AI%20Automation-00BFFF?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/AI%20Agents-FF6F00?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Prompt%20Engineering-6A5ACD?style=for-the-badge"/>
 
-</div>
+<br><br>
 
----
+### 🌐 Web Development
 
-<div align="center">
-
-## ⚡ DATA • AI • AUTOMATION • WEB
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&height=3&section=header" width="80%"/>
-
-</div>
-
-# 👋 Hi, I'm Vishal Kumar
-
-### 📊 Data Analyst • 🤖 AI Automation • 🌐 Web Development
-
-I'm a **B.Tech Information Technology undergraduate** at **Dr. A.P.J. Abdul Kalam Azad Technical University (AKTU)**, graduating in **2027**.
-
-I enjoy transforming **raw data into actionable insights** and building practical applications using **AI, automation, analytics, and web technologies**.
-
----
-
-# 🌌 Currently Exploring
-
-<div align="center">
-
-|        🤖 AI       |        📊 Data        | 🌐 Development |
-| :----------------: | :-------------------: | :------------: |
-|    AI Automation   |   Advanced Analytics  |      React     |
-|    Generative AI   |    Data Engineering   |      Flask     |
-|      AI Agents     | Business Intelligence |     Express    |
-| Prompt Engineering |        Power BI       |   JavaScript   |
+<img src="https://skillicons.dev/icons?i=react,express,flask,git,github,vscode" />
 
 </div>
 
 ---
 
-# 🚀 About Me
+# 🚀 Currently Exploring
 
-<table>
-<tr>
+<div align="center">
 
-<td width="60%">
+| Area | Focus |
+|---|---|
+| 🤖 AI | Generative AI • AI Agents • Prompt Engineering |
+| ⚙️ Automation | AI Automation • Workflow Automation |
+| 📊 Data | Advanced Analytics • Data Engineering |
+| 🌐 Development | React • Flask • Express • JavaScript |
+| 📈 Finance | Stock Market Analytics • AI Research |
+| 🧠 Problem Solving | Real-world AI & Data Applications |
 
-### 🎓 Education
+</div>
 
-**B.Tech — Information Technology**
+---
 
-Dr. A.P.J. Abdul Kalam Azad Technical University
-
-**Expected Graduation:** 2027
+# 💼 Experience
 
 <!-- EXPERIENCE:START -->
 
@@ -85,12 +105,15 @@ Dr. A.P.J. Abdul Kalam Azad Technical University
 * Market Research Analyst — **ASAUViA**
   * Conducted market research and data analysis
   * Worked with business and market insights
+
 * Data Analysis Intern — **Tutedude**
   * Performed data analysis and visualization
   * Worked with datasets to generate insights
+
 * GenAI Powered Data Analytics — **Tata**
   * Worked on Generative AI powered data analytics
   * Explored AI-assisted business insights
+
 * Data Analysis — **Google**
   * Worked on data analysis concepts and practical tasks
   * Applied analytical techniques to datasets
@@ -101,204 +124,168 @@ Dr. A.P.J. Abdul Kalam Azad Technical University
 
 **Data Analytics • AI Automation • Generative AI • Web Development**
 
+---
+
+# 🎓 Education
+
+### 🎓 B.Tech — Information Technology
+
+**Dr. A.P.J. Abdul Kalam Abdul Kalam Technical University (AKTU)**
+
+📅 Expected Graduation: **2027**
+
+---
+
+# ⭐ Featured Projects
+
+<div align="center">
+
+<table>
+
+<tr>
+
+<td width="50%" valign="top">
+
+<h3 align="center">📈 AI Stock Market Analysis System</h3>
+
+<p align="center">
+
+AI-powered stock research and market analysis system for Indian equities.
+
+</p>
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white"/>
+<img src="https://img.shields.io/badge/YFinance-00A67E?style=flat-square"/>
+<img src="https://img.shields.io/badge/TA-Analysis-FF6F00?style=flat-square"/>
+
+</p>
+
+<p align="center">
+
+<a href="https://github.com/Vishalkumar7318">
+<img src="https://img.shields.io/badge/📂%20Repository-181717?style=for-the-badge&logo=github"/>
+</a>
+
+</p>
+
 </td>
 
-<td width="40%" align="center">
+<td width="50%" valign="top">
 
-<img src="https://raw.githubusercontent.com/innng/innng/master/assets/kyubey.gif" width="280"/>
+<h3 align="center">🤖 StockLens AI</h3>
+
+<p align="center">
+
+AI-powered stock market research platform with market data, news analysis and AI insights.
+
+</p>
+
+<p align="center">
+
+<img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
+<img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white"/>
+<img src="https://img.shields.io/badge/Gemini%20AI-4285F4?style=flat-square&logo=google"/>
+
+</p>
+
+<p align="center">
+
+<a href="https://github.com/Vishalkumar7318/StockLens">
+<img src="https://img.shields.io/badge/📂%20Repository-181717?style=for-the-badge&logo=github"/>
+</a>
+
+<a href="https://stocklens-sand.vercel.app/">
+<img src="https://img.shields.io/badge/🌐%20LIVE%20DEMO-00BFFF?style=for-the-badge"/>
+</a>
+
+</p>
 
 </td>
 
 </tr>
-</table>
 
----
+<tr>
 
-# 🎯 My Goal
+<td width="50%" valign="top">
 
-<div align="center">
+<h3 align="center">📊 AI Data Analytics Dashboard</h3>
 
-### DATA → INSIGHT → AUTOMATION → INTELLIGENCE
+<p align="center">
 
-<br>
+Interactive analytics dashboard focused on transforming data into meaningful business insights.
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:020617,50:0369a1,100:00d9ff&height=5&section=header" width="75%"/>
+</p>
 
-</div>
-
-> To combine **Data + AI + Automation** to solve real-world business problems and build intelligent technology-driven solutions.
-
----
-
-# 🧠 What I Do
-
-<div align="center">
-
-| 📊 Data Analytics |    🤖 AI Automation    | 🌐 Web Development |
-| :---------------: | :--------------------: | :----------------: |
-|   Data Cleaning   |      Generative AI     |        HTML        |
-|        EDA        |      AI Workflows      |         CSS        |
-|   Business KPIs   |   Prompt Engineering   |     JavaScript     |
-|      Power BI     | Intelligent Automation |        React       |
-|   SQL Analytics   |     AI Applications    |   Flask / Express  |
-
-</div>
-
----
-
-# 🛠️ Tech Stack
-
-## 📊 Data Analytics
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=python,pandas,numpy,mysql" />
-
-<br><br>
-
-<img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black"/>
-<img src="https://img.shields.io/badge/Microsoft%20Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white"/>
-<img src="https://img.shields.io/badge/EDA-Data%20Analysis-0077B6?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Data%20Cleaning-Analytics-00BFFF?style=for-the-badge"/>
-
-</div>
-
----
-
-## 🤖 AI & Automation
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/Generative%20AI-8A2BE2?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/AI%20Automation-00BFFF?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/AI%20Agents-111827?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Prompt%20Engineering-FF6F00?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Gemini%20AI-4285F4?style=for-the-badge&logo=google&logoColor=white"/>
-
-</div>
-
----
-
-## 🌐 Web Development
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=html,css,javascript,react,express,flask" />
-
-</div>
-
----
-
-## 🧰 Tools
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=git,github,vscode,jupyter,mongodb" />
-
-</div>
-
----
-
-# 🚀 Featured Projects
-
-## 📈 AI Stock Market Analysis System
-
-<div align="center">
+<p align="center">
 
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
 <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white"/>
-<img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white"/>
-<img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white"/>
+<img src="https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black"/>
 
-<br><br>
+</p>
+
+<p align="center">
 
 <a href="https://github.com/Vishalkumar7318">
-<img src="https://img.shields.io/badge/📂%20GITHUB%20PROFILE-181717?style=for-the-badge&logo=github"/>
+<img src="https://img.shields.io/badge/📂%20Repository-181717?style=for-the-badge&logo=github"/>
 </a>
 
-</div>
+</p>
 
-A stock-analysis application designed to process market data, technical indicators and generate automated research insights.
+</td>
 
-**Key Areas**
+<td width="50%" valign="top">
 
-* 📊 Market Data Analysis
-* 📈 Technical Indicators
-* 🤖 Automated Insights
-* 📉 Stock Research Dashboard
-* 🌐 Flask Web Interface
+<h3 align="center">🛒 Sales Data Analysis</h3>
 
----
+<p align="center">
 
-# 🔍 StockLens AI
+Data analysis project focused on discovering sales trends, patterns and business insights.
 
-<div align="center">
+</p>
 
-<img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB"/>
-<img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white"/>
-<img src="https://img.shields.io/badge/Gemini%20AI-4285F4?style=flat-square&logo=google&logoColor=white"/>
-
-<br><br>
-
-<a href="https://github.com/Vishalkumar7318/StockLens">
-<img src="https://img.shields.io/badge/📂%20REPOSITORY-181717?style=for-the-badge&logo=github"/>
-</a>
-
-</div>
-
-An AI-powered stock research platform combining market information, financial news analysis, stock search and generative AI.
-
-**Key Areas**
-
-* 🔎 Stock Search
-* 📊 Market Insights
-* 📰 Financial News Analysis
-* 🤖 AI-powered Research
-* 📈 Stock Analytics
-
----
-
-# 📊 AI Data Analytics Dashboard
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/PowerBI-F2C811?style=flat-square&logo=powerbi&logoColor=black"/>
-<img src="https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white"/>
-
-</div>
-
-Interactive analytics dashboard focused on transforming raw datasets into meaningful business insights.
-
-**Key Areas**
-
-* 🧹 Data Cleaning
-* 🔍 Exploratory Data Analysis
-* 📊 KPI Analysis
-* 📈 Interactive Dashboards
-* 💡 Business Insights
-
----
-
-# 🛒 Sales Data Analysis
-
-<div align="center">
+<p align="center">
 
 <img src="https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white"/>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/PowerBI-F2C811?style=flat-square&logo=powerbi&logoColor=black"/>
+<img src="https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white"/>
+<img src="https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black"/>
+
+</p>
+
+<p align="center">
+
+<a href="https://github.com/Vishalkumar7318">
+<img src="https://img.shields.io/badge/📂%20Repository-181717?style=for-the-badge&logo=github"/>
+</a>
+
+</p>
+
+</td>
+
+</tr>
+
+</table>
 
 </div>
 
-Analyzed sales data to identify business trends, customer patterns, KPIs and overall performance.
+---
 
-**Key Areas**
+# 🚀 My Projects — Auto Updated
 
-* 💰 Revenue Analysis
-* 👥 Customer Analysis
-* 📦 Product Performance
-* 📈 Sales Trends
-* 🎯 Business KPIs
+<div align="center">
+
+## 🔥 All My Public GitHub Projects
+
+<!-- AUTO-PROJECTS:START -->
+
+> 🔄 Projects are automatically updated from my GitHub repositories.
+
+<!-- AUTO-PROJECTS:END -->
+
+</div>
 
 ---
 
@@ -306,9 +293,9 @@ Analyzed sales data to identify business trends, customer patterns, KPIs and ove
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=Vishalkumar7318&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Vishalkumar7318&show_icons=true&theme=tokyonight&hide_border=true&count_private=false" height="180"/>
 
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vishalkumar7318&layout=compact&theme=tokyonight&hide_border=true"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vishalkumar7318&layout=compact&theme=tokyonight&hide_border=true" height="180"/>
 
 </div>
 
@@ -318,24 +305,17 @@ Analyzed sales data to identify business trends, customer patterns, KPIs and ove
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com/?user=Vishalkumar7318&theme=tokyonight&hide_border=true"/>
-
-</div>
-
----
-<div align="center">
-
-<!-- <img src="https://github-readme-activity-graph.vercel.app/graph?username=Vishalkumar7318&theme=tokyo-night&hide_border=true&area=true" width="95%"/> -->
+<img src="https://streak-stats.demolab.com?user=Vishalkumar7318&theme=tokyonight&hide_border=true"/>
 
 </div>
 
 ---
 
-# 🐍 Contribution Animation
+# 🐍 Contribution Snake
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Vishalkumar7318/Vishalkumar7318/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake Animation" width="95%"/>
+<img src="https://raw.githubusercontent.com/Vishalkumar7318/Vishalkumar7318/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake" width="95%"/>
 
 </div>
 
@@ -347,10 +327,6 @@ Analyzed sales data to identify business trends, customer patterns, KPIs and ove
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=700&color=00D9FF&center=true&vCenter=true&width=850&lines=Analyzing+Data...;Building+AI+Solutions...;Automating+Workflows...;Creating+Intelligent+Applications...;Turning+Data+Into+Decisions..." alt="AI Data Automation Animation"/>
 
-<br><br>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,20:0f172a,45:0369a1,70:0891b2,100:00d9ff&height=120&section=footer&animation=twinkling" width="100%"/>
-
 </div>
 
 ---
@@ -359,15 +335,15 @@ Analyzed sales data to identify business trends, customer patterns, KPIs and ove
 
 <div align="center">
 
-| Technology           |         Progress         |
-| :------------------- | :----------------------: |
-| 📊 Data Analytics    | ████████████████████ 90% |
-| 🐍 Python            | ███████████████████░ 85% |
-| 🗄️ SQL              | ███████████████████░ 85% |
-| 📈 Power BI          | ██████████████████░░ 80% |
-| 🤖 AI Automation     | █████████████████░░░ 75% |
-| 🧠 Generative AI     | ████████████████░░░░ 70% |
-| 🌐 Web Development   | ███████████████░░░░░ 65% |
+| Technology | Progress |
+|---|:---:|
+| 📊 Data Analytics | ████████████████████ 90% |
+| 🐍 Python | ███████████████████░ 85% |
+| 🗄️ SQL | ███████████████████░ 85% |
+| 📈 Power BI | ██████████████████░░ 80% |
+| 🤖 AI Automation | █████████████████░░░ 75% |
+| 🧠 Generative AI | ████████████████░░░░ 70% |
+| 🌐 Web Development | ███████████████░░░░░ 65% |
 | 🏗️ Data Engineering | ████████████░░░░░░░░ 55% |
 
 </div>
