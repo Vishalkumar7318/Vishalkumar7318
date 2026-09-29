@@ -1,4 +1,3 @@
-
 name: Auto Update Experience
 
 on:
@@ -37,9 +36,7 @@ jobs:
               role = exp["role"]
               company = exp["company"]
 
-              lines.append(
-                  f"* {role} — **{company}**"
-              )
+              lines.append(f"* {role} — **{company}**")
 
               for description in exp.get("description", []):
                   lines.append(f"  * {description}")
@@ -67,10 +64,7 @@ jobs:
               + readme[end_index + len(end):]
           )
 
-          readme_file.write_text(
-              new_readme,
-              encoding="utf-8"
-          )
+          readme_file.write_text(new_readme, encoding="utf-8")
 
           print("Experience section updated successfully.")
           PY
