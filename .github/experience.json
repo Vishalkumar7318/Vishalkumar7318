@@ -1,0 +1,38 @@
+[
+  {
+    "role": "Market Research Analyst",
+    "company": "ASAUViA",
+    "duration": "",
+    "description": [
+      "Conducted market research and data analysis",
+      "Worked with business and market insights"
+    ]
+  },
+  {
+    "role": "Data Analysis Intern",
+    "company": "Tutedude",
+    "duration": "",
+    "description": [
+      "Performed data analysis and visualization",
+      "Worked with datasets to generate insights"
+    ]
+  },
+  {
+    "role": "GenAI Powered Data Analytics",
+    "company": "Tata",
+    "duration": "",
+    "description": [
+      "Worked on Generative AI powered data analytics",
+      "Explored AI-assisted business insights"
+    ]
+  },
+  {
+    "role": "Data Analysis",
+    "company": "Google",
+    "duration": "",
+    "description": [
+      "Worked on data analysis concepts and practical tasks",
+      "Applied analytical techniques to datasets"
+    ]
+  }
+]
