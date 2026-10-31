@@ -281,6 +281,14 @@ Data analysis project focused on discovering sales trends, patterns and business
 
 <!-- AUTO-PROJECTS:START -->
 
+### 🚀 Home-Call-Jobs
+
+GitHub Project
+
+[📂 Repository](https://github.com/Vishalkumar7318/Home-Call-Jobs)
+
+---
+
 ### 🚀 KalamNotes
 
 GitHub Project
