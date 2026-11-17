@@ -281,6 +281,17 @@ Data analysis project focused on discovering sales trends, patterns and business
 
 <!-- AUTO-PROJECTS:START -->
 
+### 🚀 StockLens
+
+GitHub Project
+
+![TypeScript](https://img.shields.io/badge/TypeScript-111827?style=flat-square)
+
+[📂 Repository](https://github.com/Vishalkumar7318/StockLens)
+ • [🌐 Live Demo](https://stocklens-sand.vercel.app/)
+
+---
+
 ### 🚀 Home-Call-Jobs
 
 GitHub Project
@@ -299,17 +310,6 @@ GitHub Project
 ![TypeScript](https://img.shields.io/badge/TypeScript-111827?style=flat-square)
 
 [📂 Repository](https://github.com/Vishalkumar7318/KalamNotes)
-
----
-
-### 🚀 StockLens
-
-GitHub Project
-
-![TypeScript](https://img.shields.io/badge/TypeScript-111827?style=flat-square)
-
-[📂 Repository](https://github.com/Vishalkumar7318/StockLens)
- • [🌐 Live Demo](https://stocklens-sand.vercel.app/)
 
 ---
 
